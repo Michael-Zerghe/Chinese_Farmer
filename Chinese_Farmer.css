@@ -3,13 +3,27 @@ body{
     line-height : 150%;
     text-align : justify;
     color : #4D0000;
+    max-width : 90%;
+    margin : 10%;
 }
 
-a:hover {
-    color : green;
-    
+a:hover{
+    color : black;
 }
 
+a:visited:hover{
+    color:black;
+}
 a:visited{
-    color : #FF0080;
+    color:purple;
+}
+
+em{
+    max-width : 50%;
+    font-size : 160%;
+    margin-left : 100px;
+    background-color : lightgrey ;
+    border-left : 3px;
+    border-color : firebrick;
+    border-spacing : 30px;
 }
