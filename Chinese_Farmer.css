@@ -1,0 +1,15 @@
+body{
+    font-family : 'Times New Roman', Times, serif;
+    line-height : 150%;
+    text-align : justify;
+    color : #4D0000;
+}
+
+a:hover {
+    color : green;
+    
+}
+
+a:visited{
+    color : #FF0080;
+}
