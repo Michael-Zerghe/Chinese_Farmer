@@ -1,10 +1,16 @@
 body{
     font-family : 'Times New Roman', Times, serif;
     line-height : 150%;
-    text-align : justify;
+    text-align : center;
     color : #4D0000;
     max-width : 90%;
     margin : 10%;
+    background : linear-gradient(70deg, #343436 50%, #0081CE 100%);
+    background-image : url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position : bottom 0px right 0px;
+    background-size : cover;
 }
 
 a:hover{
@@ -21,9 +27,105 @@ a:visited{
 em{
     max-width : 50%;
     font-size : 160%;
-    margin-left : 100px;
     background-color : lightgrey ;
-    border-left : 3px;
-    border-color : firebrick;
-    border-spacing : 30px;
+    border-left : solid firebrick 3px;
+    line-height : 160%;
+    padding-left : 30px;
+    
+}
+
+ul{
+    border-left : solid firebrick 3px;
+    padding-left : 30px;
+    background-color : lightgrey;
+    
+}
+
+li{
+    text-align : center;
+    font-style : italic;
+    font-size : 160%;
+    padding-left : 30px;
+}
+
+.quote{
+    border-left : solid firebrick 3px;
+    padding-left : 30px;
+    background-color : lightgrey;
+    font-style : italic;
+    font-size : 160%;
+    margin-top : 80px;
+    margin-bottom : 80px;
+}
+
+.villager{
+    border-left : solid red 2px;
+    font-style: italic;
+}
+
+.farmer{
+    border-left: solid green 2px;
+    font-style: italic;
+}
+
+.bad{
+    color : red;
+    text-transform: capitalize;
+}
+
+.good{
+    color : green;
+    text-transform: capitalize;
+}
+
+h1{
+    background-color: yellow;
+}
+
+table, th, td{
+    width: 50%;
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+
+.grey{
+    background-color: grey;
+}
+
+#up{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-4.27/main/Assets/bien.png?token=ASHPW2HY427UPTP54F4RGPTAA25MM);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    padding-right: 3px;
+}
+
+#down{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-4.27/main/Assets/mal.png?token=ASHPW2GB2CNOZPOM2CKSC3TAA25MS);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    padding-right: 3px;
+}
+
+#cat{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-4.27/main/Assets/chat.png?token=ASHPW2DGNYZ22CWZP3RGNX3AA25M2);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    padding-right: 3px;
+}
+#flottant1{
+    float: right;
+    margin: 5px;
+}
+
+#flottant2{
+    float : left;
+    margin: 5px;
+}
+
+#flottant3{
+    float: right;
+    margin: 5px;
 }
