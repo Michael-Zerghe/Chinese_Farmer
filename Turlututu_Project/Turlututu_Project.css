@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+.navi ul{
+    list-style-type: none;
+}
+
+.navi{
+    display: inline-block;
+}
+
+nav{
+    background-color: #333333;
+    color: white;
+}
+
+#blue{
+    background-color: #1E93CC;
+}
+
+#whiteline{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titles{
+    font-size: 150%;
+    color: white;
+    text-align: left;
+}
+
+.explain{
+    text-align: left;
+}
+
+
+.man{
+    float: left;
+}
