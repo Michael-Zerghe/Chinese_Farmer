@@ -8,6 +8,13 @@ body{
     list-style-type: none;
 }
 
+.navi li{
+    width: 100px;
+}
+
+#login{
+    margin-left: 120px;
+}
 .navi{
     display: inline-block;
 }
@@ -154,4 +161,49 @@ nav{
 #title{
     font-size: 300%;
     margin-bottom: 5px;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    align : bottom right;
+}
+
+#footer li
+
+#navlog{
+    vertical-align: -4px;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    width: 140px;
+    margin-right: 20px;
+}
+
+.footer{
+    display: inline-block;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin-top:230px ;
+    left: 0;
+    font-size: 13px;
+}
+
+#copy{
+    text-align: right;
+    margin-left: 150px;
+    padding: 
 }
