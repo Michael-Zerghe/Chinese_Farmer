@@ -1,5 +1,8 @@
 body{
     text-align: center;
+    background-color: #1E93CC;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .navi ul{
     list-style-type: none;
@@ -12,30 +15,143 @@ body{
 nav{
     background-color: #333333;
     color: white;
+    position: absolute;
+    width: 100%;
+    top : 0;
+    left : 0;
+    
 }
 
 #blue{
-    background-color: #1E93CC;
+    color: white;
 }
 
 #whiteline{
     background-color: white;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position : absolute;
+    width : 100%;
+    left  : 0;
+    color: black;
+    font-size: 20px;
 }
 
 .titles{
-    font-size: 150%;
+    font-size: 200%;
     color: white;
     text-align: left;
+    font-weight: bold;
+    padding-bottom : 5px;
 }
 
 .explain{
     text-align: left;
+    color: white;
+    padding-bottom: 6px;
+    vertical-align: top;
+}
+
+#login{
+    text-align: right;
+}
+
+#blue{
+    margin : 100px;
+}
+
+#presentation{
+    margin-top : 125px;
+}
+
+#white2{
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position : absolute;
+    width : 100%;
+    left  : 0;
+    color: black;
+}
+
+#logo{
+    margin-top: 100px;
+    width: 100%;
+    background-color: lightgray;
+    position: absolute;
+    left: 0;
+    margin-top: 54px;
 }
 
 
-.man{
+#logo td{
+    padding-right: 10px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#lien{
+    width : 40%;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 400px;
+}
+#lien td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#links{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    margin-top: 193px;
+    left: 0;
+}
+
+.bluecell{
+    background-color: #165882;
+    border-radius: 5px;
+    border : black 1px solid;
+}
+
+#orangecell{
+    background-color: #e99002;
+    border-radius: 5px;
+    border : black 1px solid;
+}
+
+#man{
     float: left;
+    width: 170px;
+    margin-left: 50px;
+}
+#title,#sub,#start{
+    margin-right: 200px;
+}
+#haut{
+    margin-top: 0;
+}
+
+#start{
+    background-color: #e99002;
+    border-radius: 5px;
+    border : solid 1px white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+#sub{
+    font-size: 18px;
+}
+
+#title{
+    font-size: 300%;
+    margin-bottom: 5px;
 }
